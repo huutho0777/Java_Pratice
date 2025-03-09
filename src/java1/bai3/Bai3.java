@@ -9,7 +9,7 @@ public class Bai3 {
         if(a<0){
             System.out.println("a la so am");
         } else if (a>0){
-            System.out.println("a la so duong");
+            System.out.println("a la so duong abc");
         }
         else{
             System.out.println("a=0");
