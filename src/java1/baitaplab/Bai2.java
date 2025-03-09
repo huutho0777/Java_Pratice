@@ -1,4 +1,4 @@
-package java1.bai2;
+package java1.baitaplab;
 
 import java.util.Scanner;
 
