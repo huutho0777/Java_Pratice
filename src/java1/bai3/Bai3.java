@@ -8,9 +8,7 @@ public class Bai3 {
         int a = scanner.nextInt();
         if(a<0){
             System.out.println("a la so am");
-        }
-
-        else if (a>0){
+        } else if (a>0){
             System.out.println("a la so duong");
         }
         else{
