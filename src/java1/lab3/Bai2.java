@@ -4,14 +4,11 @@ import java.util.Scanner;
 
 public class Bai2 {
     public static void main(String[] args){
-        Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
-        for(int i=1;i<=10;i++){
-            System.out.printf("%d x %d= %d\n",n,i,n*i);
+        for(int i = 1;i<=9;i++) {
+            for(int j=2;j<=9;j++) {
+                System.out.printf("%d*%d=%-4d",j,i,j*i);
+            }
+            System.out.println();
         }
-
-
     }
-
-
 }

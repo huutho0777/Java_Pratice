@@ -61,5 +61,16 @@ public class Bai1 {
         } else {
             System.out.println(N + " khong phai la so nguyen to.");
         }
+
+        boolean ketquadung = kiemTraSoNguyenTo(N);
+        if (ketquadung) {
+            System.out.println("");
+        } else {
+            System.out.println("N khong phai so ngyyen to");
+        }
+    }
+
+    private static boolean kiemTraSoNguyenTo(int n) {
+        return false;
     }
 }
